@@ -2,6 +2,7 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: #eaeced;
+  position: relative;
 }
 .nav-bar {
   position: absolute;
@@ -70,4 +71,59 @@ body {
 .side-bar ul li:hover {
   background-color: #eaeced;
   cursor: pointer;
+}
+.show-player {
+  position: absolute;
+  top: 200px;
+  left: 440px;
+}
+.player-container {
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.1) 8px 0px 12px 0px;
+  margin-bottom: 20px;
+  width: fit-content;
+}
+
+#img {
+  height: 100px;
+  width: 100px;
+}
+.player {
+  display: flex;
+  height: 100px;
+}
+
+.player-details {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.466);
+  color: #fff;
+  padding: 20px;
+}
+#line {
+  width: 2px;
+  height: 60px;
+  background-color: #000;
+}
+.player-runs {
+  display: flex;
+  background-color: #00000050;
+  color: #fff;
+  padding: 20px;
+  width: 480px;
+}
+
+.item {
+  margin-right: 30px;
+  text-align: center;
+}
+
+#name-type {
+  text-align: center;
+  width: 340px;
+}
+
+.selctor {
+  position: absolute;
+  top: 120px;
+  left: 220px;
 }
