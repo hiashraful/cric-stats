@@ -66,6 +66,9 @@ $dbc->close();
     </form>
     <div class='side-bar'>
       <ul>
+        <?php
+          sort($options);
+        ?>
         <?php foreach ($options as $option): ?>
           <li><a href="#" onclick="selectCountry('<?php echo $option; ?>')"><?php echo $option; ?></a></li>
           <?php endforeach;?>
